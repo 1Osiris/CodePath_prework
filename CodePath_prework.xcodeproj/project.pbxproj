@@ -6,26 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B93DEE6D2CF2824600F67024 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = B93DEE6C2CF2823F00F67024 /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		B93DEE6C2CF2823F00F67024 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		B969D2112CF26DE100727CDD /* CodePath_prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePath_prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B969D2232CF26DE200727CDD /* Exceptions for "CodePath_prework" folder in "CodePath_prework" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B969D2102CF26DE100727CDD /* CodePath_prework */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B969D2132CF26DE100727CDD /* CodePath_prework */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B969D2232CF26DE200727CDD /* Exceptions for "CodePath_prework" folder in "CodePath_prework" target */,
-			);
 			path = CodePath_prework;
 			sourceTree = "<group>";
 		};
@@ -47,6 +39,7 @@
 			children = (
 				B969D2132CF26DE100727CDD /* CodePath_prework */,
 				B969D2122CF26DE100727CDD /* Products */,
+				B93DEE6C2CF2823F00F67024 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93DEE6D2CF2824600F67024 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
